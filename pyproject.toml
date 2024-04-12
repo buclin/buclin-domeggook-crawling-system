@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "buclin-domeggook-crawling-system"
+version = "0.1.0"
+description = "BUCLIN Domeggok Crawling System"
+authors = ["Changminkim-329"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+jupyter = "^1.0.0"
+selenium = "^4.19.0"
+pandas = "^2.2.2"
+jupyterthemes = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
